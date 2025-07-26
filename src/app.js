@@ -1,0 +1,23 @@
+const express = require( "express")
+
+class App{
+    constructor(){
+        this.app = express()
+
+        this.middlewares();
+
+        this.routes(0)
+    }
+
+    middlewares(){
+         this.app.use(express.json())
+    }
+
+    routes(){}
+}
+
+
+
+
+
+module.exports = new App().app
