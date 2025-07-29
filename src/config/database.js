@@ -1,15 +1,17 @@
-/* eslint-disable no-undef */
+'use strict';
 
+// eslint-disable-next-line no-undef
 module.exports = {
     dialect: 'postgres',
     host: 'localhost',
     username: 'postgres',
     password: 'postgres',
-    database: 'devburguer',
+    database: 'devburger',
     define: {
         timestamps: true,
         underscored: true,
         underscoredAll: true,
     },
 };
+
 
